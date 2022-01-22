@@ -39,7 +39,7 @@ async def ytdl(format: str, link: str):
     return 0, stderr
 
 
-@Client.on_message(command(["mplay", f"mplay@{BOT_USERNAME}","شغل", "ماجي", "عمر","اوشا","فودا","حسن","مستفز","فارس","جوست","دربكه","روما","شيكو","خالد","رحمه","بالي","فوفا","زوزا","حسام","محمود", "فوديكا","الحاكم", "play"]) & other_filters)
+@  العميل . on_message ( الأمر ([ "mplay"  ،  f  "mplay @ {BOT_USERNAME}" "شغل"  ،  "ماجي"  ،  "عمر"  ،  "اوشا"  ،  "فودا"  ،  "حسن"  ،  "جوست"  ،  "شيكو"  ،  "  ،،  "      )
 async def play(c: Client, m: Message):
     replied = m.reply_to_message
     chat_id = m.chat.id
@@ -157,7 +157,7 @@ async def play(c: Client, m: Message):
                     "» الرد علي **ملف صوتي** او **إعطاء شيء للبحث.**"
                 )
             else:
-                suhu = await c.send_message(chat_id, "🔍 **ويت جاري البحث ياحب..🙂💕...**")
+                suhu = await c.send_message(chat_id, "🔍 **ويت جاري البحث يقلبي..🙂💕...**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
