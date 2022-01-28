@@ -67,7 +67,7 @@
 
 الطريقة السهلة لاستضافة هذا الروبوت ، والنشر في Heroku ، وتغيير بلد التطبيق إلى أوروبا (سيساعد ذلك في جعل الروبوت مستقرًا).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ghost1VODIKA/Video-Stream0938)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Faresbadry829/Video-Stream0938)
 
 
 ### Support & Updates 🎑
